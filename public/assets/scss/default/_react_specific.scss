@@ -142,7 +142,7 @@
 }
 
 /* mini cart style */
-.edublink-header-mini-cart {
+.Chhayaa-header-mini-cart {
     top: 90%;
     right: -50px;
     position: absolute;
@@ -262,7 +262,7 @@
     position: relative;
 }
 
-.header-action li.icon.cart-icon:hover .edublink-header-mini-cart {
+.header-action li.icon.cart-icon:hover .Chhayaa-header-mini-cart {
     opacity: 1;
     visibility: visible;
     top: 100%;
@@ -308,7 +308,7 @@
 }
 
 /* presentation page */
-@keyframes edublink-marque-animation {
+@keyframes Chhayaa-marque-animation {
     0% {
         background-position: 0%; 
     }
@@ -318,7 +318,7 @@
 }
 
 .background-marque {
-    animation: edublink-marque-animation 50s linear infinite reverse;
+    animation: Chhayaa-marque-animation 50s linear infinite reverse;
     pointer-events: none;
 }
 
@@ -454,7 +454,7 @@
     .header-action li.icon a.wishlist {
         color: var(--color-white) !important;
     }
-    .edublink-header-mini-cart {
+    .Chhayaa-header-mini-cart {
         .wrapper {
             background: #02060d;
             .items {

@@ -7,7 +7,7 @@ const events = event_data.filter(item => item.home_7)
 const EventArea = () => {
     return (
         <div className="edu-event-area event-area-3 bg-image">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                     <span className="pre-title pre-textsecondary">Discover Event</span>
                     <h2 className="title">Join Our Upcoming Event</h2>

@@ -4,7 +4,7 @@ import React from 'react';
 const AboutArea = () => {
   return (
     <div className="edu-about-area photography-about-style section-gap-equal">
-    <div className="container edublink-animated-shape">
+    <div className="container Chhayaa-animated-shape">
         <div className="section-title section-center">
             <h2 className="title">We are Creative and Passionate <br/> Photographers</h2>
             <span className="shape-line"><i className="icon-19"></i></span>

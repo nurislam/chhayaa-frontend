@@ -3,7 +3,7 @@ import React from 'react';
 const AdBanner = () => {
     return (
         <div className="edu-cta-banner-area cta-banner-3 bg-image">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="edu-cta-banner">
                     <div className="row justify-content-center">
                         <div className="col-lg-8">

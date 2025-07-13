@@ -28,7 +28,7 @@ export default CategoryArea;
 const FeatureBox = ({ delay, icon, color, title, text }) => {
     return (
         <div className="col-lg-3" data-sal-delay={delay} data-sal="slide-up" data-sal-duration="800">
-            <div className={`features-box ${color} edublink-svg-animate`}>
+            <div className={`features-box ${color} Chhayaa-svg-animate`}>
                 <div className="icon">
                     {icon}
                 </div>

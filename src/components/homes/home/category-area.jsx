@@ -13,7 +13,7 @@ const CategoryArea = () => {
             <div className="container">
                 <div className="features-grid-wrap">
                     {category_contents.map((category, i) => (
-                        <div key={i} className="features-box features-style-2 edublink-svg-animate">
+                        <div key={i} className="features-box features-style-2 Chhayaa-svg-animate">
                             <div className="icon">
                                 {category.icon}
                             </div>

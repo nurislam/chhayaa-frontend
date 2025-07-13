@@ -3,7 +3,7 @@ import React from 'react';
 const HeroArea = () => {
     return (
         <div className="hero-banner hero-style-8">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="banner-content">

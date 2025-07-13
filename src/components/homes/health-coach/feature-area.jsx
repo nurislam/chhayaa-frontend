@@ -4,7 +4,7 @@ import React from 'react';
 function FeatureItem ({delay,icon,clr,title}) {
   return (
     <div className="col-lg-4" data-sal-delay={delay} data-sal="slide-up" data-sal-duration="800">
-        <div className={`features-box color-${clr} edublink-svg-animate`}>
+        <div className={`features-box color-${clr} Chhayaa-svg-animate`}>
             <div className="icon">
                 <img src={`/assets/images/svg-icons/h-8-shape-${icon}.svg`} alt="images svg"/>
             </div>

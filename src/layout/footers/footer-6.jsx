@@ -58,7 +58,7 @@ const FooterSix = () => {
                                   <ul className="information-list">
                                       <li><span>Add:</span>70-80 Upper St Norwich NR2</li>
                                       <li><span>Call:</span><a href="tel:+011235641231">+01 123 5641 231</a></li>
-                                      <li><span>Email:</span><a href="mailto:info@edublink.com" target="_blank">info@edublink.com</a></li>
+                                      <li><span>Email:</span><a href="mailto:info@Chhayaa.com" target="_blank">info@Chhayaa.com</a></li>
                                   </ul>
                               </div>
                               <ul className="social-share icon-transparent">
@@ -75,7 +75,7 @@ const FooterSix = () => {
               <div className="row">
                   <div className="col-lg-12">
                       <div className="inner text-center">
-                          <p>Copyright {new Date().getFullYear()} <a href="https://1.envato.market/5bQ022" target="_blank">EduBlink</a> Designed By <a href="https://1.envato.market/YgGJbj" target="_blank">DevsBlink</a>. All Rights Reserved</p>
+                          <p>Copyright {new Date().getFullYear()} <a href="https://1.envato.market/5bQ022" target="_blank">Chhayaa</a> Designed By <a href="https://1.envato.market/YgGJbj" target="_blank">DevsBlink</a>. All Rights Reserved</p>
                       </div>
                   </div>
               </div>

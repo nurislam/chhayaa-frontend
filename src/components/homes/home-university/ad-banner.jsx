@@ -9,7 +9,7 @@ const AdBanner = ({ home_4 }) => {
                     <div className="row justify-content-center">
                         <div className="col-lg-7">
                             <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                <h2 className="title">Get Your Quality Skills <span className="color-primary">Certificate</span> Through EduBlink </h2>
+                                <h2 className="title">Get Your Quality Skills <span className="color-primary">Certificate</span> Through Chhayaa </h2>
                                 <Link href="/contact-us" className="edu-btn btn-secondary">
                                 Get started now <i className="icon-4"></i>
                                 </Link>

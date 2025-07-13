@@ -48,7 +48,7 @@ const TestimonialArea = () => {
   return (
     <>
       <div className="testimonial-area-9 section-gap-equal">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="row g-5">
                     <div className="col-lg-3">
                         <div className="testimonial-heading-area">
@@ -59,7 +59,7 @@ const TestimonialArea = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-5 bg-thumbnail edublink-animated-shape">
+                    <div className="col-lg-5 bg-thumbnail Chhayaa-animated-shape">
                         <img className="health-bg-thumbnail" src="/assets/images/bg/bg-image-34.webp" alt="images"/>
                         <ul className="shape-group">
                             <li className="shape-3 scene" data-sal-delay="1000" data-sal="fade" data-sal-duration="1000">

@@ -8,7 +8,7 @@ const AdBanner = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-9">
                         <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                            <h2 className="title">Get Your Quality eBook Through <br/> EduBlink Book Store</h2>
+                            <h2 className="title">Get Your Quality eBook Through <br/> Chhayaa Book Store</h2>
                             <div className="subs-button">
                                 <a href="#"> <button className="edu-btn btn-medium" type="button">Get Free Book <i className="icon-4"></i></button></a>
                             </div>

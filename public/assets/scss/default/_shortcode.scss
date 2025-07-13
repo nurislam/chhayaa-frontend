@@ -588,7 +588,7 @@ Custom Row
 
 
 // preloader
-#edublink-preloader {
+#Chhayaa-preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -600,7 +600,7 @@ Custom Row
     transition: all 1.5s ease-out; 
 }
   
-#edublink-preloader.loaded .preloader-close-btn-wraper {
+#Chhayaa-preloader.loaded .preloader-close-btn-wraper {
     bottom: 200%; 
 }
   
@@ -644,7 +644,7 @@ Custom Row
     position: absolute;
     top: 0;
     left: 0;
-    animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out; 
+    animation: Chhayaa-preloader-bounce-animation 2.0s infinite ease-in-out; 
 }
   
 .preloader-spin-2 {
@@ -656,11 +656,11 @@ Custom Row
     position: absolute;
     top: 0;
     left: 0;
-    animation: edublink-preloader-bounce-animation 2.0s infinite ease-in-out;
+    animation: Chhayaa-preloader-bounce-animation 2.0s infinite ease-in-out;
     animation-delay: -1.0s; 
 }
   
-@-webkit-keyframes edublink-preloader-bounce-animation {
+@-webkit-keyframes Chhayaa-preloader-bounce-animation {
     0%,
     100% {
         transform: scale(0);
@@ -670,7 +670,7 @@ Custom Row
     } 
 }
   
-@keyframes edublink-preloader-bounce-animation {
+@keyframes Chhayaa-preloader-bounce-animation {
     0%,
     100% {
         transform: scale(0);

@@ -7,7 +7,7 @@ const footer_contents = {
     desc: 'Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.',
     add: '70-80 Upper St Norwich NR2',
     call: '+01 123 5641 231',
-    email: 'info@edublink.com',
+    email: 'info@Chhayaa.com',
     widgets: [
         {
             col: '3',
@@ -76,7 +76,7 @@ const Footer = ({ style_2, dark_bg,home_4,cls='',logo_white=false }) => {
                                     <ul className="information-list">
                                         <li><span>Add:</span>{add}</li>
                                         <li><span>Call:</span><a href="tel:+011235641231">{call}</a></li>
-                                        <li><span>Email:</span><a href="mailto:info@edublink.com" rel="noreferrer" target="_blank">{email}</a></li>
+                                        <li><span>Email:</span><a href="mailto:info@Chhayaa.com" rel="noreferrer" target="_blank">{email}</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ const Footer = ({ style_2, dark_bg,home_4,cls='',logo_white=false }) => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="inner text-center">
-                                <p>Copyright {new Date().getFullYear()} <a href="https://1.envato.market/AoJezj" rel="noreferrer" target="_blank">EduBlink</a> Designed By <a href="https://1.envato.market/YgGJbj" rel="noreferrer" target="_blank">DevsBlink</a>. All Rights Reserved</p>
+                                <p>Copyright {new Date().getFullYear()} <a href="https://1.envato.market/AoJezj" rel="noreferrer" target="_blank">Chhayaa</a> Designed By <a href="https://1.envato.market/YgGJbj" rel="noreferrer" target="_blank">DevsBlink</a>. All Rights Reserved</p>
                             </div>
                         </div>
                     </div>

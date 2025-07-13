@@ -12,7 +12,7 @@ const BlogMain = () => {
         <div className='sticky-header'>
             <div id="main-wrapper" className="main-wrapper">
                 <Header no_top_bar={true} />
-                <BreadcrumbThree title="Blog Standard" subtitle="Blog 1" />
+                <BreadcrumbThree title="Blog" subtitle="Blog " />
                 <BlogArea/>
                 <AdBanner/>
                 <Footer style_2={'footer-dark bg-image footer-style-2'} />

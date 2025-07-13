@@ -6,7 +6,7 @@ const WhyChoose = () => {
       <div className="container">
           <div className="row g-5 row--45">
               <div className="col-lg-6">
-                  <div className="process-gallery edublink-animated-shape" data-sal-delay="150" data-sal="slide-right" data-sal-duration="800">
+                  <div className="process-gallery Chhayaa-animated-shape" data-sal-delay="150" data-sal="slide-right" data-sal-duration="800">
                       <div className="gallery-thumbnail">
                           <div className="thumbnail thumbnail-1">
                               <img src="/assets/images/process/process-1.webp" alt="Why Choose"/>

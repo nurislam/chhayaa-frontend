@@ -60,7 +60,7 @@ const GalleryArea = () => {
                             ))}
                         </div>
                         <div className="isotope-list gallery-grid-wrap">
-                            <div id="animated-thumbnials" className="edublink-react-gallery-grid">
+                            <div id="animated-thumbnials" className="Chhayaa-react-gallery-grid">
                                 <div className="row g-5">
                                     {items.map((item, i) => (
                                         <div key={i} className="col-lg-4 col-md-6" style={{ cursor: 'pointer' }}>

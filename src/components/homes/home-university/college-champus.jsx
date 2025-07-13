@@ -24,7 +24,7 @@ const features = [
 const CollegeCampus = () => {
     return (
         <div className="edu-campus-area gap-lg-top-equal">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="row g-5">
                     <div className="col-xl-7" data-sal-delay="50" data-sal="slide-right" data-sal-duration="800">
                         <div className="campus-image-gallery">

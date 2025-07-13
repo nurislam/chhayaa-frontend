@@ -36,10 +36,10 @@ const BlogArea = () => {
   const blog_items = blog_data.filter(b => b.home_quran_learning)
   return (
     <div className="edu-blog-area blog-area-11 edu-section-gap">
-        <div className="container edublink-animated-shape">
+        <div className="container Chhayaa-animated-shape">
             <div className="section-title section-center" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
                 <span className="pre-title">Latest Articles</span>
-                <h2 className="title">Get News with EduBlink</h2>
+                <h2 className="title">Get News with Chhayaa</h2>
                 <span className="shape-line"><i className="icon-19"></i></span>
             </div>
             <div className="row g-5">

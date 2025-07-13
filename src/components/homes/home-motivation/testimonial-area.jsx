@@ -46,7 +46,7 @@ const slider_setting = {
 const TestimonialArea = () => {
   return (
     <div className="testimonial-area-12 gap-top-equal">
-    <div className="container edublink-animated-shape">
+    <div className="container Chhayaa-animated-shape">
         <div className="row g-5">
             <div className="col-lg-6" data-sal-delay="150" data-sal="slide-right" data-sal-duration="800">
                 <div className="testimonial-heading-area">
@@ -85,7 +85,7 @@ const TestimonialArea = () => {
                     </Swiper>
                 </div>
             </div>
-            <div className="col-lg-6 edublink-animated-shape" data-sal-delay="150" data-sal="slide-left" data-sal-duration="800">
+            <div className="col-lg-6 Chhayaa-animated-shape" data-sal-delay="150" data-sal="slide-left" data-sal-duration="800">
                 <div className="bg-thumbnail">
                     <img className="motivation-bg-thumbnail" src="/assets/images/testimonial/testimonial-bg.webp" alt="images"/>
                 </div>

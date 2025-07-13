@@ -24,7 +24,7 @@ const FaqArea = () => {
                         <div className="edu-faq-content">
                             <div className="section-title section-left">
                                 <span className="pre-title">FAQ’s</span>
-                                <h2 className="title">Learn Your Best Education Culture with EduBlink</h2>
+                                <h2 className="title">Learn Your Best Education Culture with Chhayaa</h2>
                                 <span className="shape-line"><i className="icon-19"></i></span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt labore dolore magna.</p>
                             </div>

@@ -4,10 +4,10 @@ import ChoseBox from './chose-box-item';
 const WhyChose = () => {
     return (
         <section className="why-choose-area-2 section-gap-large">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <span className="pre-title">Why choose edublink</span>
-                    <h2 className="title">The Best <span className="color-secondary">Beneficial</span> Side <br /> of EduBlink</h2>
+                    <span className="pre-title">Why choose Chhayaa</span>
+                    <h2 className="title">The Best <span className="color-secondary">Beneficial</span> Side <br /> of Chhayaa</h2>
                     <span className="shape-line"><i className="icon-19"></i></span>
                 </div>
                 <div className="row g-5">

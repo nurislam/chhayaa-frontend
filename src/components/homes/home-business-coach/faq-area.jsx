@@ -4,7 +4,7 @@ import SingleFaq from '@/components/faq/single-faq';
 const FaqArea = () => {
   return (
     <div className="edu-faq-area faq-style-8 business-faq">
-    <div className="container  edublink-animated-shape">
+    <div className="container  Chhayaa-animated-shape">
         <div className="section-title section-center" data-sal-delay="50" data-sal="slide-up" data-sal-duration="1000">
             <span className="pre-title">FAq’s</span>
             <h2 className="title">Frequently Asked <br/> Questions.</h2>

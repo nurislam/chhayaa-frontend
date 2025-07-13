@@ -9,12 +9,12 @@ const HeroBanner = () => {
   return (
     <>
     <div className="hero-banner hero-style-12 motivation-banner">
-        <div className="container edublink-animated">
+        <div className="container Chhayaa-animated">
             <div className="row align-items-center">
                 <div className="col-lg-6 edu-order-md-2">
                     <div className="banner-content" data-sal-delay="150" data-sal="slide-up" data-sal-duration="1000">
                         <span className="pre-title color-primary">I am Fedrik Jon</span>
-                        <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Take Motivation <br/> & Boost Your Energy <br/> with EduBlink</h1>
+                        <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Take Motivation <br/> & Boost Your Energy <br/> with Chhayaa</h1>
                         <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Excepteur sint occaecat cupidatat non proident sunt <br/> in culpa qui officia deserunt mollit.</p>
                         <ul className="banner-btn-video" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                             <li className="banner-btn">

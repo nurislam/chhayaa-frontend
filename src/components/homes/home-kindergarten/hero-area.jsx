@@ -4,7 +4,7 @@ import { Certificate, Instructor, OnlineClass } from '../../../svg';
 
 function FeatureBox({ color, icon, content }) {
     return (
-        <div className={`features-box ${color} edublink-svg-animate`}>
+        <div className={`features-box ${color} Chhayaa-svg-animate`}>
             <div className="icon">
                 {icon}
             </div>

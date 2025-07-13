@@ -6,7 +6,7 @@ import CourseTypeThree from '../../course/course-type-three';
 const Courses = () => {
     return (
         <div className="home-four-course edu-course-area course-area-4 gap-tb-text bg-image">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                     <span className="pre-title">Popular Courses</span>
                     <h2 className="title">Pick A Course To Get Started</h2>

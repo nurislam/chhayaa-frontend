@@ -16,7 +16,7 @@ function CategoryItem({icon,title,subtitle,cls}) {
 const CategoryArea = () => {
   return (
     <div className="features-area-6">
-    <div className="container edublink-animated-shape">
+    <div className="container Chhayaa-animated-shape">
         <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
             <span className="pre-title pre-textsecondary">features</span>
             <h2 className="title">Explore Yourself All Over The World</h2>

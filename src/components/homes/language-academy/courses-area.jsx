@@ -33,7 +33,7 @@ const CoursesArea = () => {
   const course_items = course_data.filter(course => course.language_academy);
   return (
     <div className="home-nine-course edu-course-area course-area-10 section-gap-equal">
-    <div className="container edublink-animated-shape">
+    <div className="container Chhayaa-animated-shape">
         <div className="section-title section-center sal-animate" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
             <span className="pre-title">Popular Courses</span>
             <h2 className="title">Pick A Course To Get Started</h2>

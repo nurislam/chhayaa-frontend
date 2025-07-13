@@ -30,7 +30,7 @@ const GalleryArea = () => {
             <div className="edu-gallery-area edu-section-gap">
                 <div className="container">
                     <div id="masonry-gallery" className="gallery-grid-wrap">
-                        <div id="animated-thumbnials" className="edublink-react-gallery-grid">
+                        <div id="animated-thumbnials" className="Chhayaa-react-gallery-grid">
                             <ResponsiveMasonry columnsCountBreakPoints={{ 0: 1, 750: 2,992:3 }} >
                                 <Masonry gutter="30px">
                                     {gallery_images.map((img, i) => (

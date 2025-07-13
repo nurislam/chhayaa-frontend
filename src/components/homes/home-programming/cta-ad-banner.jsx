@@ -13,7 +13,7 @@ const CtaAdBanner = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="section-title section-left">
-                        <h2 className="title">Download Our <br/> Free <span className="color-secondary">Programming Ebook</span> <br/> From EduBlink</h2>
+                        <h2 className="title">Download Our <br/> Free <span className="color-secondary">Programming Ebook</span> <br/> From Chhayaa</h2>
                         <div className="subs-button">
                             <a href="#"> <button className="edu-btn btn-medium" type="button">Download ebook now <i className="icon-4"></i></button></a>
                         </div>

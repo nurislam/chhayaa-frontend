@@ -37,7 +37,7 @@ const counter_data = [
 const CounterArea = ({about_p_3}) => {
     return (
         <div className={`${about_p_3?'counterup-area-9':'counterup-area-8 gap-lg-bottom-equal'}`}>
-            <div className={`container ${about_p_3?'edublink-animated-shape':''}`}>
+            <div className={`container ${about_p_3?'Chhayaa-animated-shape':''}`}>
                 <div className="row g-5">
                     {counter_data.map((c, i) => {
                         const { color, count, text, title,icon } = c;

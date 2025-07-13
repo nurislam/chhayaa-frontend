@@ -8,7 +8,7 @@ const HeroBanner = () => {
           <div className="row align-items-center">
               <div className="col-lg-6">
                   <div className="banner-content">
-                      <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Expand Your <br/> Business Possibilities <br/>with Edublink</h1>
+                      <h1 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Expand Your <br/> Business Possibilities <br/>with Chhayaa</h1>
                       <p data-sal-delay="200" data-sal="slide-up" data-sal-duration="1000">Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
                       <div className="banner-btn" data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                           <Link href="/course-style-1" className="edu-btn">Find courses <i className="icon-4"></i></Link>

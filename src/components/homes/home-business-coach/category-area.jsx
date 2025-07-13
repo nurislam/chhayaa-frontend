@@ -25,7 +25,7 @@ const CategoryArea = () => {
         </div>
         <div className="row g-5">
             <div className="col-lg-4 col-md-6" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
-              <CategoryItem icon={<i className="icon-9"></i>} title="Business Strategy" subtitle="Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod." clr="color-primary edublink-svg-animate" />
+              <CategoryItem icon={<i className="icon-9"></i>} title="Business Strategy" subtitle="Lorem ipsum dolor amet ex consecturs adipiscing elit sed eiusmod." clr="color-primary Chhayaa-svg-animate" />
             </div>
 
             <div className="col-lg-4 col-md-6" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">

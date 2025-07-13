@@ -4,7 +4,7 @@ import React from 'react';
 function CategoryItem ({delay,clr,icon,title,icon_img}) {
   return (
     <div className="col-lg-4 col-md-6" data-sal-delay={delay} data-sal="slide-up" data-sal-duration="800">
-        <div className={`categorie-grid categorie-style-5 color-${clr} edublink-svg-animate`}>
+        <div className={`categorie-grid categorie-style-5 color-${clr} Chhayaa-svg-animate`}>
             <div className="icon">
                 {!icon_img && <i className={`icon-${icon}`}></i>}
                 {icon_img && <img src={`/assets/images/svg-icons/icon-${icon_img}.svg`} alt="Image Svg"/>}

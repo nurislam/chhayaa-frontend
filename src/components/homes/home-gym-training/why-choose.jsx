@@ -8,7 +8,7 @@ const WhyChoose = () => {
             <div className="benefits-wrap-one">
             </div>
             <div className="benefits-wrap-two">
-                <div className="process-gallery edublink-animated-shape">
+                <div className="process-gallery Chhayaa-animated-shape">
                     <div className="gallery-thumbnail">
                         <div className="thumbnail thumbnail-1">
                             <img src="/assets/images/others/benefit-img-01.webp" alt="Why Choose"/>
@@ -16,7 +16,7 @@ const WhyChoose = () => {
                     </div>
                 </div>
             </div>
-            <div className="container edublink-animated-shape benefits-content-box">
+            <div className="container Chhayaa-animated-shape benefits-content-box">
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="process-content">

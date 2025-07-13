@@ -40,7 +40,7 @@ const ResponsiveMenu = ({ isOpen, setIsOpen }) => {
                                 <a href="#demos">Demos</a>
                             </li>
                             <li>
-                                <a href="https://docs.devsblink.com/edublink-react/" target="_blank">Documentation</a>
+                                <a href="https://docs.devsblink.com/Chhayaa-react/" target="_blank">Documentation</a>
                             </li>
                             <li>
                                 <a href="https://devsblink.ticksy.com/" target="_blank">Support</a>

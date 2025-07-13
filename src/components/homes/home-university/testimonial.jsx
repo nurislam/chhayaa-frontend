@@ -49,7 +49,7 @@ const Testimonial = ( { about_p_2 } ) => {
     useEffect( () => setLoop(true), [])
     return (
         <div className={`testimonial-area-2 ${about_p_2?'edu-section-gap':'section-gap-large'}`}>
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="row justify-content-center">
                     <div className="col-lg-6">
                         <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">

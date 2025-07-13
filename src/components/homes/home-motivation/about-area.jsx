@@ -7,7 +7,7 @@ const AboutArea = () => {
   return (
     <>
     <div className="gap-bottom-equal edu-about-area about-style-1 about-style-10">
-        <div className="container edublink-animated-shape">
+        <div className="container Chhayaa-animated-shape">
             <div className="row g-5 align-items-center">
                 <div className="col-lg-6" data-sal-delay="150" data-sal="slide-right" data-sal-duration="800">
                     <div className="about-image-gallery">

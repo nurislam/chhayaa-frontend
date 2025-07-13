@@ -25,7 +25,7 @@ const HeaderTwo = ({ style_3, no_topBar = false }) => {
                                 <div className="header-top-left">
                                     <ul className="header-info">
                                         <li><a href="tel:+011235641231"><i className="icon-phone"></i>Call: 123 4561 5523</a></li>
-                                        <li><a href="mailto:info@edublink.com" rel="noreferrer" target="_blank"><i className="icon-envelope"></i>Email: info@edublink.com</a></li>
+                                        <li><a href="mailto:info@Chhayaa.com" rel="noreferrer" target="_blank"><i className="icon-envelope"></i>Email: info@Chhayaa.com</a></li>
                                     </ul>
                                 </div>
 

@@ -60,7 +60,7 @@ const HeroArea = () => {
             <SwiperSlide key={item.id}>
                 <img data-transform-origin='center center' src={item.bg_img} alt="image"/>
                 <div className="thumbnail-bg-content">
-                    <div className="container edublink-animated-shape">
+                    <div className="container Chhayaa-animated-shape">
                         <div className="row">
                             <div className="col-7">
                                 <div className="banner-content">

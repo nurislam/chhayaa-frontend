@@ -3,7 +3,7 @@
 -----------------------*/
 
 // Mouse Move/Particle/Abstract Shape Animation
-.edublink-animated-shape {
+.Chhayaa-animated-shape {
     position: relative;
     z-index: 9;
 }
@@ -181,7 +181,7 @@
     animation: rotateIt 11s linear infinite;
 }
 
-@-webkit-keyframes edublink-vsm-y-move {
+@-webkit-keyframes Chhayaa-vsm-y-move {
     0% {
         -webkit-transform: translate(0, -30%);
         transform: translate(0, -30%);
@@ -192,7 +192,7 @@
     }
 }
 
-@keyframes edublink-vsm-y-move {
+@keyframes Chhayaa-vsm-y-move {
     0% {
         -webkit-transform: translate(0, -30%);
         transform: translate(0, -30%);
@@ -203,7 +203,7 @@
     }
 }
 
-@-webkit-keyframes edublink-vsm-y-reverse-move {
+@-webkit-keyframes Chhayaa-vsm-y-reverse-move {
     0% {
         -webkit-transform: translate(0, 30%);
         transform: translate(0, 30%);
@@ -214,7 +214,7 @@
     }
 }
 
-@keyframes edublink-vsm-y-reverse-move {
+@keyframes Chhayaa-vsm-y-reverse-move {
     0% {
         -webkit-transform: translate(0, 30%);
         transform: translate(0, 30%);
@@ -225,7 +225,7 @@
     }
 }
 
-@-webkit-keyframes edublink-sm-x-move {
+@-webkit-keyframes Chhayaa-sm-x-move {
     0% {
         -webkit-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
@@ -236,7 +236,7 @@
     }
 }
 
-@keyframes edublink-sm-x-move {
+@keyframes Chhayaa-sm-x-move {
     0% {
         -webkit-transform: translate(-50%, 0);
         transform: translate(-50%, 0);
@@ -247,7 +247,7 @@
     }
 }
 
-@-webkit-keyframes edublink-sm-x-reverse-move {
+@-webkit-keyframes Chhayaa-sm-x-reverse-move {
     0% {
         -webkit-transform: translate(50%, 0);
         transform: translate(50%, 0);
@@ -258,7 +258,7 @@
     }
 }
 
-@keyframes edublink-sm-x-reverse-move {
+@keyframes Chhayaa-sm-x-reverse-move {
     0% {
         -webkit-transform: translate(50%, 0);
         transform: translate(50%, 0);
@@ -269,7 +269,7 @@
     }
 }
 
-@-webkit-keyframes edublink-rotate-y {
+@-webkit-keyframes Chhayaa-rotate-y {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -280,7 +280,7 @@
     }
 }
 
-@-webkit-keyframes edublink-rotate-x {
+@-webkit-keyframes Chhayaa-rotate-x {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -291,7 +291,7 @@
     }
 }
 
-@keyframes edublink-rotate-x {
+@keyframes Chhayaa-rotate-x {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -302,7 +302,7 @@
     }
 }
 
-@keyframes edublink-rotate-y {
+@keyframes Chhayaa-rotate-y {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
@@ -313,7 +313,7 @@
     }
 }
 
-@-webkit-keyframes edublink-zoom1 {
+@-webkit-keyframes Chhayaa-zoom1 {
     0% {
         -webkit-transform: scale(0.9);
         transform: scale(0.9);
@@ -324,7 +324,7 @@
     }
 }
 
-@keyframes edublink-zoom2 {
+@keyframes Chhayaa-zoom2 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -335,7 +335,7 @@
     }
 }
 
-@-webkit-keyframes edublink-zoom1 {
+@-webkit-keyframes Chhayaa-zoom1 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -346,7 +346,7 @@
     }
 }
 
-@keyframes edublink-zoom1 {
+@keyframes Chhayaa-zoom1 {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -554,7 +554,7 @@ Scroll Down Button Animation
         transform: translateX(-1750px);
     }
 }
-@keyframes eduBlinkTestimonialScroll {
+@keyframes ChhayaaTestimonialScroll {
     from {
         transform: translateY(0)
     }

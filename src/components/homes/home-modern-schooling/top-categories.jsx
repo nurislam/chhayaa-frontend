@@ -4,7 +4,7 @@ import React from 'react';
 function Category({ delay, color, icon, icon_class, title, course }) {
     return (
         <div className="col-lg-4 col-md-6" data-sal-delay={delay} data-sal="slide-up" data-sal-duration="800">
-            <div className={`categorie-grid categorie-style-4 ${color} edublink-svg-animate`}>
+            <div className={`categorie-grid categorie-style-4 ${color} Chhayaa-svg-animate`}>
                 <div className="icon">
                     <i className={`${icon} ${icon_class ? icon_class : ''}`}></i>
                 </div>

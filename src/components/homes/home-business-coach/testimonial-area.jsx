@@ -62,7 +62,7 @@ const testimonial_data = [
 const TestimonialArea = () => {
   return (
     <div className="testimonial-area-4 business-testimonial">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="row g-5">
                     <div className="col-lg-5">
                         <div className="testimonial-heading-area">

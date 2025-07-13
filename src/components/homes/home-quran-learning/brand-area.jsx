@@ -17,7 +17,7 @@ function SingleProgress({id,width}) {
 const BrandArea = () => {
   return (
     <div className="edu-expart-area expert-area-1 section-gap-equal">
-        <div className="container edublink-animated-shape">
+        <div className="container Chhayaa-animated-shape">
             <div className="row g-5">
                 <div className="col-lg-6 col-md-6">
                     <div className="expert-section-heading">

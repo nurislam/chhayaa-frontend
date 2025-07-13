@@ -11,7 +11,7 @@ const OnlineCourse = () => {
                             <div className="course-content">
                                 <div className="section-title section-left splash-title">
                                     <span className="pre-title" data-sal="slide-up" data-sal-duration="1000">Online Course</span>
-                                    <h2 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Learn Your Online Course Easily With EduBlink</h2>
+                                    <h2 className="title" data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Learn Your Online Course Easily With Chhayaa</h2>
                                     <p data-sal-delay="100" data-sal="slide-up" data-sal-duration="1000">Users can check up their active courses, update their bio, completed courses, track their progress easily and many more.</p>
                                     <div data-sal-delay="400" data-sal="slide-up" data-sal-duration="1000">
                                         <Link href="/course-details" className="edu-btn" target="_blank">

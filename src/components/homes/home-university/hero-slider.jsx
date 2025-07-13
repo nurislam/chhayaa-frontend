@@ -7,7 +7,7 @@ const slider_data = [
     {
         id: 1,
         src: '/assets/images/bg/bg-image-17.webp',
-        subtitle: 'Welcome to EduBlink',
+        subtitle: 'Welcome to Chhayaa',
         title: 'World Best Program Best University',
         sm_text: 'Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.',
         btn_text: 'Find courses'
@@ -64,7 +64,7 @@ const HeroSlider = () => {
                         <SwiperSlide key={id}>
                             <img data-transform-origin='center center' src={src} className="swiper-lazy" alt="image" />
                             <div className="thumbnail-bg-content">
-                                <div className="container edublink-animated-shape">
+                                <div className="container Chhayaa-animated-shape">
                                     <div className="row">
                                         <div className="col-7">
                                             <div className="banner-content">

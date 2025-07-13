@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const demos = [
     {
-        title:'EduBlink Education',
+        title:'Chhayaa Education',
         link:'/',
         imgSrc: 'home-01.jpg'
     },

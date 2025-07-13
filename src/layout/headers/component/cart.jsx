@@ -9,7 +9,7 @@ const Cart = () => {
     const {total} = useCartInfo();
     
     return (
-        <div className="edublink-header-mini-cart">
+        <div className="Chhayaa-header-mini-cart">
             {cartItems.length === 0 && 
                 <div className="wrapper empty-cart-wrapper">
                     <h5 className="empty-cart">Your cart is empty</h5>

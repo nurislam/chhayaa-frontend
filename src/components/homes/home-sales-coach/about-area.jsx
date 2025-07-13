@@ -3,11 +3,11 @@ import React from 'react';
 const AboutArea = () => {
   return (
     <div className="gap-top-equal edu-about-area about-style-17">
-      <div className="container edublink-animated-shape">
+      <div className="container Chhayaa-animated-shape">
           <div className="row g-5 align-items-center">
               <div className="col-lg-4">
                   <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                      <span className="pre-title color-primary">Welcome to Edublink</span>
+                      <span className="pre-title color-primary">Welcome to Chhayaa</span>
                       <h2 className="title"> Elevating Your <br/> Sales Skills with <br/> Sales Course</h2>
                   </div>
               </div>

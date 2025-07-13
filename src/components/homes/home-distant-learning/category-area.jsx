@@ -52,7 +52,7 @@ const CategoryArea = () => {
                 <div className="row g-5">
                     {contents.category_data.map((category, i) => (
                         <div key={i} className="col-lg-3 col-sm-6" data-sal-delay={category.delay} data-sal="slide-up" data-sal-duration="800">
-                            <div className={`categorie-grid categorie-style-1 ${category.color} edublink-svg-animate`}>
+                            <div className={`categorie-grid categorie-style-1 ${category.color} Chhayaa-svg-animate`}>
                                 <div className="icon">
                                     {category.icon}
                                 </div>

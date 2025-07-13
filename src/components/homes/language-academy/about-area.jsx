@@ -2,7 +2,7 @@ import React from 'react';
 
 const tabs = {
     heading:[
-        {active:true,target:'about-edu',title:'About EduBlink'},
+        {active:true,target:'about-edu',title:'About Chhayaa'},
         {target:'about-mission',title:'Our Mission'},
         {target:'about-vision',title:'Our Vision'}
     ],

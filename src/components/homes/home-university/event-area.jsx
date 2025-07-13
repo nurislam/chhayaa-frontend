@@ -6,7 +6,7 @@ import EventItem from '../../event-grid/event-item';
 const EventArea = ({ event_2=false,event_4=false,e_business=false }) => {
     return (
         <div className={`edu-event-area ${event_2 ? 'event-area-2' : event_4 || e_business ? 'event-area-4 section-gap-equal' : 'event-area-1 gap-large-text'}`}>
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                     <span className="pre-title">Events & News</span>
                     <h2 className="title">Popular Events & News</h2>
@@ -51,7 +51,7 @@ const EventArea = ({ event_2=false,event_4=false,e_business=false }) => {
                 </div>}
 
                 <div className="event-view-all-btn" data-sal-delay="150" data-sal="slide-up" data-sal-duration="1200">
-                    <h6 className="view-text">The Latest Events from EduBlink. <Link href="/event-grid" className="btn-transparent">
+                    <h6 className="view-text">The Latest Events from Chhayaa. <Link href="/event-grid" className="btn-transparent">
                         View All <i className="icon-4"></i>
                     </Link>
                     </h6>

@@ -43,7 +43,7 @@ const TestimonialArea = () => {
     return (
         <>
             <section className="testimonial-area-6 gap-bottom-equal">
-                <div className="container edublink-animated-shape">
+                <div className="container Chhayaa-animated-shape">
                     <div className="row row--40">
                         <div className="col-lg-6">
                             <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">

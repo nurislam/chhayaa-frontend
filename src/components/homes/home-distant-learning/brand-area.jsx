@@ -12,7 +12,7 @@ const brand_images = [
 const BrandArea = () => {
     return (
         <div className="edu-brand-area brand-area-2 bg-image">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="brand-grid-wrap brand-style-2"> 
                     {brand_images.map((img, i) => ( 
                         <div key={i} className="brand-grid">

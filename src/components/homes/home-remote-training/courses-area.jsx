@@ -34,7 +34,7 @@ function CourseSingle({item}) {
 const CoursesArea = () => {
   return (
     <div className="home-remote-course edu-course-area gap-bottom-equal">
-     <div className="container edublink-animated-shape">
+     <div className="container Chhayaa-animated-shape">
         <div className="section-title section-center sal-animate" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
             <span className="pre-title">Popular Courses</span>
             <h2 className="title">Pick A Course To Get Started</h2>

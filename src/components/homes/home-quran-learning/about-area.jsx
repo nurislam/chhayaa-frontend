@@ -3,7 +3,7 @@ import React from 'react';
 const AboutArea = () => {
   return (
     <div className="section-gap-equal edu-about-area about-style-1 quran-learning-about">
-      <div className="container edublink-animated-shape">
+      <div className="container Chhayaa-animated-shape">
           <div className="row g-5 align-items-center">
               <div className="col-lg-6">
                   <div className="about-image-gallery">

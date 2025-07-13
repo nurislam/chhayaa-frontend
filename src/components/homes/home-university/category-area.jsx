@@ -28,7 +28,7 @@ const CategoryArea = () => {
             <div className="container">
                 <div className="features-grid-wrap">
                     {categories.map((c,i) => (
-                        <div key={i} className={`features-box features-style-3 ${c.color} edublink-svg-animate`}>
+                        <div key={i} className={`features-box features-style-3 ${c.color} Chhayaa-svg-animate`}>
                             <div className="icon">
                                 {c.icon}
                             </div>

@@ -8,7 +8,7 @@ const health_courses = course_data.filter(c => c.health_coach)
   return (
     <>
      <div className="home-eight-course edu-course-area course-area-9 section-gap-equal">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <ul>
                     <li>
                         <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">

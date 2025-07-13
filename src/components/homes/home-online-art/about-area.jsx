@@ -13,7 +13,7 @@ const AboutArea = () => {
           </div>
           <div className="row g-5 align-items-center">
               <div className="col-lg-6">
-                  <div className="about-image-gallery-1 edublink-animated-shape">
+                  <div className="about-image-gallery-1 Chhayaa-animated-shape">
                       <div className="main-img-3" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
                           <img src="/assets/images/about/about-27.webp" alt="About Image"/>
                       </div>
@@ -28,7 +28,7 @@ const AboutArea = () => {
                   </div>
               </div>
               <div className="col-lg-6" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
-                  <div className="about-image-gallery-2 edublink-animated-shape">
+                  <div className="about-image-gallery-2 Chhayaa-animated-shape">
                       <div className="about-content">
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                           </p>

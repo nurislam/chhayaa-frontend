@@ -37,7 +37,7 @@ const counter_data = [
 const CounterArea = ({about_p_3}) => {
     return (
         <div className="counterup-area-9">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="row g-5">
                     {counter_data.map((c, i) => {
                         const { color, count, text, title,icon } = c;

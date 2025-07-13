@@ -7,7 +7,7 @@ const HeroBanner = () => {
   return (
     <>
     <div className="hero-banner hero-style-19 quran-learning-banner">
-        <div className="container edublink-animated-shape">
+        <div className="container Chhayaa-animated-shape">
             <div className="row align-items-center">
                 <div className="col-lg-6">
                     <div className="banner-content">

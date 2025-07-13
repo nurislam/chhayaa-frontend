@@ -8,7 +8,7 @@ const AdBanner = () => {
             <div className="row justify-content-center">
                 <div className="col-lg-9">
                     <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                        <h2 className="title">Register To Get Quality Kitchen <span className="color-primary">Courses</span> Through EduBlink</h2>
+                        <h2 className="title">Register To Get Quality Kitchen <span className="color-primary">Courses</span> Through Chhayaa</h2>
                     </div>
                     <div className="input-group footer-subscription-form" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
                         <input type="email" className="form-control" placeholder="Your email"/>

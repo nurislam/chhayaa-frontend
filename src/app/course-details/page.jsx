@@ -1,11 +1,8 @@
 "use client";
 import { Wrapper } from "@/layout";
-import CourseDetailsOneMain from "@/components/course-details";
-import { course_data } from "@/data";
+import CourseDetailsOneMain from "@/components/course-details"; 
 
-export const metadata = {
-  title: "Course Details One",
-};
+ 
 
 const CourseDetailsPage = () => {
   // const course = course_data[0];

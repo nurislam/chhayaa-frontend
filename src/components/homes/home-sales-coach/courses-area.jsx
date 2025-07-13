@@ -32,7 +32,7 @@ const CoursesArea = () => {
   const course_items = course_data.filter(course => course.sales_coach);
   return (
     <div className="sales-coach-course edu-course-area course-area-4 bg-image">
-        <div className="container edublink-animated-shape">
+        <div className="container Chhayaa-animated-shape">
             <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                 <span className="pre-title">Popular Courses</span>
                 <h2 className="title">Pick A Course To Get Started</h2>

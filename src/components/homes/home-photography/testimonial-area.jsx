@@ -82,7 +82,7 @@ const TestimonialArea = () => {
   };
   return (
     <div className="testimonial-area-10 gap-top-equal photography-testimonial">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="testimonial-heading-area">
                     <div className="section-title section-center" data-sal-delay="50" data-sal="slide-up" data-sal-duration="800">
                         <span className="pre-title">Testimonials</span>

@@ -9,7 +9,7 @@ const FaqArea = () => {
                 <div className="col-lg-6">
                     <div className="section-title section-left" data-sal-delay="150" data-sal="slide-right" data-sal-duration="800">
                         <span className="pre-title">FAq’s</span>
-                        <h2 className="title">Learn Your Best Education <br/> Culture with Edublink</h2>
+                        <h2 className="title">Learn Your Best Education <br/> Culture with Chhayaa</h2>
                         <span className="shape-line"><i className="icon-19"></i></span>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt labore dolore magna.</p>
                     </div>
@@ -44,7 +44,7 @@ const FaqArea = () => {
                                     <div className="accordion">
                                     <SingleFaq id="6" title="Am I eligible for admission?" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco qui laboris nis aliquip commodo consequat." parent='accordion2' />
 
-                                    <SingleFaq id="7" title="What kind of support does EduBlink provide?" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco qui laboris nis aliquip commodo consequat." parent='accordion2' />
+                                    <SingleFaq id="7" title="What kind of support does Chhayaa provide?" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco qui laboris nis aliquip commodo consequat." parent='accordion2' />
                                     <SingleFaq id="8" title="How long is my personal free trial?" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco qui laboris nis aliquip commodo consequat." parent='accordion2' />
 
                                     <SingleFaq id="9" title="How do I find a school where I want to study?" desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamco qui laboris nis aliquip commodo consequat." parent='accordion2' />

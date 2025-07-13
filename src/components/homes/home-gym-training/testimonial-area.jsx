@@ -47,7 +47,7 @@ const slider_setting = {
 const TestimonialArea = () => {
   return (
     <div className="testimonial-area-19">
-      <div className="container edublink-animated-shape">
+      <div className="container Chhayaa-animated-shape">
         <div className="row g-lg-5">
           <div className="col-lg-5 edu-order-md-2">
             <div className="testimonial-bg-area">

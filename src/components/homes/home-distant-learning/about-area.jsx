@@ -9,7 +9,7 @@ const features_list = [
 const AboutArea = () => {
     return (
         <div className="gap-bottom-equal edu-about-area about-style-2">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <div className="row g-5 align-items-center">
                     <div className="col-lg-7">
                         <div className="about-image-gallery">

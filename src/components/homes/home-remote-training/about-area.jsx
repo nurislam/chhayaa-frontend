@@ -9,7 +9,7 @@ const AboutArea = () => {
           <div className="col-lg-6">
             <div className="about-course">
               <div className="about-course-wrap">
-                <div className="about-course-box about-course-style-2 edublink-svg-animate">
+                <div className="about-course-box about-course-style-2 Chhayaa-svg-animate">
                   <div className="icon icon-online">
                     <OnlineClass/>
                   </div>
@@ -20,7 +20,7 @@ const AboutArea = () => {
                 </div>
               </div>
               <div className="about-course-wrap">
-                <div className="about-course-box about-course-style-2 edublink-svg-animate remote-course">
+                <div className="about-course-box about-course-style-2 Chhayaa-svg-animate remote-course">
                   <div className="icon instructor">
                     <Instructor/>
                   </div>
@@ -31,7 +31,7 @@ const AboutArea = () => {
                 </div>
               </div>
               <div className="about-course-wrap">
-                <div className="about-course-box about-course-style-2 edublink-svg-animate">
+                <div className="about-course-box about-course-style-2 Chhayaa-svg-animate">
                   <div className="icon certificate">
                     <Certificate/>
                   </div>

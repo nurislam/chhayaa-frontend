@@ -33,7 +33,7 @@ function CourseSingle({course,index}) {
 const CoursesArea = () => {
   return (
     <div className="home-photography-course edu-course-area">
-            <div className="container edublink-animated-shape">
+            <div className="container Chhayaa-animated-shape">
                 <ul>
                     <li>
                         <div className="section-title section-left" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">

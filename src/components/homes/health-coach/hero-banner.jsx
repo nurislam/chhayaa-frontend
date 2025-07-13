@@ -5,17 +5,17 @@ import { FreeMode, Thumbs, EffectFade, Navigation } from "swiper/modules";
 
 const slider_content_data = [
   {
-    pre_title: 'Welcome to edublink',
+    pre_title: 'Welcome to Chhayaa',
     title: <>Reclaim Your Body, <br /> Your Confidence & <br /> Your Life.</>,
     desc: 'Excepteur sint occaecat cupidatat non proident sunt <br/> in culpa qui officia deserunt mollit.'
   },
   {
-    pre_title: 'Welcome to edublink',
+    pre_title: 'Welcome to Chhayaa',
     title: <>Working With, <br /> Expart & chaged <br /> Your Life</>,
     desc: 'Excepteur sint occaecat cupidatat non proident sunt <br/> in culpa qui officia deserunt mollit.'
   },
   {
-    pre_title: 'Welcome to edublink',
+    pre_title: 'Welcome to Chhayaa',
     title: <>We Can Help <br /> Your Reignite That <br /> Speak</>,
     desc: 'Excepteur sint occaecat cupidatat non proident sunt <br/> in culpa qui officia deserunt mollit.'
   },
@@ -56,7 +56,7 @@ const HeroBanner = () => {
               {slider_content_data.map((item, i) => (
                 <SwiperSlide key={i}>
                   <div className="inner">
-                    <span className="pre-title color-primary">Welcome to edublink</span>
+                    <span className="pre-title color-primary">Welcome to Chhayaa</span>
                     <h1 className="title">{item.title}</h1>
                     <p>Excepteur sint occaecat cupidatat non proident sunt <br /> in culpa qui officia deserunt mollit.</p>
                     <div className="banner-btn">

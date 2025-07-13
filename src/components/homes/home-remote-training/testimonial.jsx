@@ -47,7 +47,7 @@ const slider_setting = {
 const Testimonial = () => {
   return (
     <div className="testimonial-area-11 gap-top-equal">
-    <div className="container edublink-animated-shape">
+    <div className="container Chhayaa-animated-shape">
         <div className="row justify-content-center">
             <div className="col-lg-6">
                 <div className="section-title section-center" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
