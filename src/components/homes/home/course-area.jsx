@@ -1,15 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { course_data } from "../../../data";
 import CourseTypeOne from "../../course/course-type-one";
 import { useCoursesQuery } from "@/data/courses/use-courses.query";
 
 const CourseArea = () => {
   const {
-    data: courseData = [],
-    isPending,
-    refetch: refetchCourseData,
+    data: course_data = [],
+    isLoading,
+    isFetching,
+    error,
+    refetch,
   } = useCoursesQuery({
     include: [
       {
@@ -34,8 +35,6 @@ const CourseArea = () => {
     order: ["createdAt DESC"],
   });
 
-  console.log("Courses:", courseData);
-
   return (
     <div className="edu-course-area course-area-1 edu-section-gap bg-lighten01">
       <div className="container">
@@ -52,29 +51,19 @@ const CourseArea = () => {
           </span>
         </div>
         <div className="row g-5">
-          {courseData.slice(0, 4).map((course) => {
-            const transformedCourse = {
-              ...course,
-              img: course.imageUrl, // Maps to data.img
-              course_price: course.price, // Maps to data.course_price
-              rating_count: course.TotalStudents || 0, // Assuming this as review count
-              student: course.TotalStudents,
-              lesson: course.totalLesson,
-              level: course.featured,
-              short_desc: course.content?.slice(0, 100) + "...", // truncate content
-            };
-            return (
-              <div
-                className="col-md-6 col-xl-3"
-                data-sal-delay="150"
-                data-sal="slide-up"
-                data-sal-duration="800"
-                key={course.id}
-              >
-                <CourseTypeOne data={course} />
-              </div>
-            );
-          })}
+          {isLoading ? (
+            <p>Loading...</p>
+          ) : course_data.length > 0 ? (
+            <div className="row g-5">
+              {course_data.slice(0, 4).map((course) => (
+                <div className="col-md-6 col-xl-3" key={course.id}>
+                  <CourseTypeOne data={course} />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <p>No courses found.</p>
+          )}
         </div>
         <div
           className="course-view-all"

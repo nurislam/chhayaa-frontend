@@ -28,7 +28,6 @@ const fetchCoursesData = async (options: any, localContext?: any) => {
   const endpoint = localContext
     ? LOCAL_ENDPOINTS.COURSES
     : API_ENDPOINTS.COURSES;
-  console.log("endpoint", endpoint);
 
   const { data } = await Courses.find(
     `${endpoint}?filter=${JSON.stringify(options)}`,
@@ -83,13 +82,31 @@ const useUpdateCoursesById = () => {
 };
 
 const fetchCoursesDetails = async (identifier: any, localContext?: any) => {
+  const filter = {
+    include: [
+      {
+        relation: "category",
+        scope: {
+          fields: { id: true, categoryName: true },
+        },
+      },
+      {
+        relation: "lessons",
+      },
+      {
+        relation: "instructor",
+      },
+    ],
+  };
+
   const endpoint = localContext
     ? LOCAL_ENDPOINTS.COURSES
     : API_ENDPOINTS.COURSES;
   const { data } = await Courses.find(
-    `${endpoint}/details/${identifier}`,
+    `${endpoint}/${identifier}?filter=${JSON.stringify(filter)}`,
     localContext
   );
+
   return data;
 };
 
