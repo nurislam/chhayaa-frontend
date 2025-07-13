@@ -1,7 +1,7 @@
-import Courses from "@repositories/courses";
-import { API_ENDPOINTS, LOCAL_ENDPOINTS } from "@utils/api/endpoints";
 import { useMutation, useQuery } from "@tanstack/react-query";
+import { API_ENDPOINTS, LOCAL_ENDPOINTS } from "@/utils/api/endpoints";
 import Instructors from "@/repositories/instructors";
+import Courses from "@/repositories/courses";
 
 export type IinistructorVariables = {
   id?: number;
@@ -10,7 +10,7 @@ export type IinistructorVariables = {
   designation?: string;
   content?: string;
   rating?: number;
-  totalCourse?: number; 
+  totalCourse?: number;
   imageUrl?: string;
   status?: string;
   createdAt?: string;
@@ -74,7 +74,7 @@ const fetchInstructorsDetails = async (identifier: any, localContext?: any) => {
     ? LOCAL_ENDPOINTS.INSTRUCTORS
     : API_ENDPOINTS.INSTRUCTORS;
   const { data } = await Instructors.find(
-    `${endpoint}/details/${identifier}`,
+    `${endpoint}/${identifier}`,
     localContext
   );
   return data;
