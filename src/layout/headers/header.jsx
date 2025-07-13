@@ -10,19 +10,10 @@ import { wishlistItems } from '../../redux/features/wishlist-slice';
 import useCartInfo from '../../hooks/use-cart-info';
 import OffCanvas from '../../components/common/sidebar/off-canvas';
 import Cart from './component/cart';
+import { useCategoryQuery } from "@/data/category/use-category.query";
+ 
 
-const categories = [
-    { link: '/course-style-1', title: 'Design' },
-    { link: '/course-style-1', title: 'Development' },
-    { link: '/course-style-1', title: 'Architecture' },
-    { link: '/course-style-1', title: 'Life Style' },
-    { link: '/course-style-1', title: 'Data Science' },
-    { link: '/course-style-1', title: 'Marketing' },
-    { link: '/course-style-1', title: 'Music' },
-    { link: '/course-style-1', title: 'Photography' },
-    { link: '/course-style-1', title: 'Finance' },
-    { link: '/course-style-1', title: 'Motivation' }
-]
+
 
 const Header = ({ header_style, no_top_bar, disable_full_width, disable_category,cls='' }) => {
     const { sticky } = useSticky();
@@ -30,6 +21,25 @@ const Header = ({ header_style, no_top_bar, disable_full_width, disable_category
     const wishlists = useSelector(wishlistItems);
     const [isSearchOpen, setIsSearchOpen] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
+
+    const {
+    data: category = [],
+    isLoading,
+    isFetching,
+    error,
+    refetch,
+  } = useCategoryQuery({ 
+    where: { deleted: 0,categoryType:"course" },
+    order: ["createdAt DESC"],
+  });
+  
+  const categories = category
+  .filter(cat => cat.status === 'active' && !cat.deleted)
+  .map(cat => ({
+    link: `/course?category=${cat.identifier}`,
+    title: cat.categoryName
+  }));
+  
 
     return (
         <>

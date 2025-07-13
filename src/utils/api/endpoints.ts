@@ -6,6 +6,7 @@ export const API_ENDPOINTS = {
   LESSONS: API_ENDPOINT + "lessons",
   INSTRUCTORS: API_ENDPOINT + "instructors",
   STUDENTS: API_ENDPOINT + "students",
+  CATEGORIES: API_ENDPOINT + "categories",
 };
 
 export const LOCAL_ENDPOINTS = {
@@ -13,4 +14,5 @@ export const LOCAL_ENDPOINTS = {
   LESSONS: LOCAL_ENDPOINT + "lessons",
   INSTRUCTORS: LOCAL_ENDPOINT + "instructors",
   STUDENTS: API_ENDPOINT + "students",
+  CATEGORIES: API_ENDPOINT + "categories",
 };
