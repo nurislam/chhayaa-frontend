@@ -10,13 +10,58 @@ import BlogSidebar from './blog-sidebar';
 import VideoModal from '../common/popup-modal/video-modal';
 import useModal from '../../hooks/use-modal';
 import PaginationTwo from '../../ui/paginatio-2';
+import { useCategoryQuery } from "@/data/category/use-category.query";
+import { fetchPostsData } from '@/data/posts/use-posts.query';
+import { getserverAuth } from '@/utils/api/actions';
 
+
+
+  
 const blog_items = blog_data.filter(blog => blog.blog_standard)
 
 const BlogArea = () => {
+
+    
     const [loop, setLoop] = useState(false);
     useEffect(() => setLoop(true), []);
     const { isVideoOpen, setIsVideoOpen } = useModal();
+
+
+    const [posts, setPosts] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function loadPosts() {
+      const ctx = getserverAuth();
+      const data = await fetchPostsData(
+        {
+          where: { deleted: false, postStatus: "published" },
+          include: [
+            {
+              relation: "category",
+              scope: { fields: { id: true, identifier: true, categoryName: true } },
+            },
+            {
+              relation: "tags",
+              scope: {
+                fields: { id: true, identifier: true, postId: true, name: true },
+              },
+            },
+          ],
+          order: ["createdAt DESC"],
+        },
+        ctx
+      );
+      setPosts(data);
+      setLoading(false);
+    }
+
+    loadPosts();
+  }, []);
+
+  if (loading) return <div>Loading...</div>;
+  if (!posts) return <div>No posts found</div>;
+
     return (
         <>
             <section className="section-gap-equal">

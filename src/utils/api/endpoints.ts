@@ -7,6 +7,8 @@ export const API_ENDPOINTS = {
   INSTRUCTORS: API_ENDPOINT + "instructors",
   STUDENTS: API_ENDPOINT + "students",
   CATEGORIES: API_ENDPOINT + "categories",
+  POSTS: API_ENDPOINT + "posts",
+  TAGS: API_ENDPOINT + "tags",
 };
 
 export const LOCAL_ENDPOINTS = {
@@ -15,4 +17,6 @@ export const LOCAL_ENDPOINTS = {
   INSTRUCTORS: LOCAL_ENDPOINT + "instructors",
   STUDENTS: API_ENDPOINT + "students",
   CATEGORIES: API_ENDPOINT + "categories",
+  POSTS: API_ENDPOINT + "posts",
+  TAGS: LOCAL_ENDPOINT + "tags",
 };
