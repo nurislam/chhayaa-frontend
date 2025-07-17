@@ -10,17 +10,14 @@ import { wishlistItems } from '../../redux/features/wishlist-slice';
 import useCartInfo from '../../hooks/use-cart-info';
 import OffCanvas from '../../components/common/sidebar/off-canvas';
 import Cart from './component/cart';
-import { useCategoryQuery } from "@/data/category/use-category.query";
- 
+import { useCategoryQuery } from "@/data/category/use-category.query";  
 
-
-
-const Header = ({ header_style, no_top_bar, disable_full_width, disable_category,cls='' }) => {
+const Header =  ({ header_style, no_top_bar, disable_full_width, disable_category,cls='' }) => {
     const { sticky } = useSticky();
     const { quantity } = useCartInfo();
     const wishlists = useSelector(wishlistItems);
     const [isSearchOpen, setIsSearchOpen] = useState(false);
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false); 
 
     const {
     data: category = [],
