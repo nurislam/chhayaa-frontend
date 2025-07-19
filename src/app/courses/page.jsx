@@ -1,5 +1,5 @@
 import { Wrapper } from "@/layout";
-import CourseStyleOneMain from "@/components/course-style-1";
+import CourseStyleOneMain from "@/components/courses";
 
 export const metadata = {
   title: 'Course Style One'

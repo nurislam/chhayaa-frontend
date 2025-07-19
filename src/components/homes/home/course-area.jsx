@@ -71,7 +71,7 @@ const CourseArea = () => {
           data-sal="slide-up"
           data-sal-duration="1200"
         >
-          <Link href="/course-style-1" className="edu-btn">
+          <Link href="/courses" className="edu-btn">
             Browse more courses <i className="icon-4"></i>
           </Link>
         </div>
