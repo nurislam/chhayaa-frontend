@@ -1,5 +1,5 @@
 import { Wrapper } from "@/layout";
-import AboutOneMain from "@/components/abouts/about-1";
+import AboutOneMain from "@/components/abouts";
 
 export const metadata = {
   title: 'About One'

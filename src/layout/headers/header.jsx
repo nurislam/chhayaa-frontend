@@ -33,7 +33,7 @@ const Header =  ({ header_style, no_top_bar, disable_full_width, disable_categor
   const categories = category
   .filter(cat => cat.status === 'active' && !cat.deleted)
   .map(cat => ({
-    link: `/course?category=${cat.identifier}`,
+    link: `/courses/category/${cat.identifier}`,
     title: cat.categoryName
   }));
   
@@ -128,8 +128,8 @@ const Header =  ({ header_style, no_top_bar, disable_full_width, disable_categor
                                         <Cart />
                                     </li>
                                     <li className="header-btn">
-                                        <Link href="/contact-us" className="edu-btn btn-medium">
-                                           Try for free <i className="icon-4"></i>
+                                        <Link href="/sign-in" className="edu-btn btn-medium">
+                                           Registration <i className="icon-4"></i>
                                         </Link>
                                     </li>
                                     <li className="mobile-menu-bar d-block d-xl-none">

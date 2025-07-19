@@ -14,10 +14,10 @@ const footer_contents = {
             class: 'explore-widget',
             widget_title: 'Online Platform',
             footer_links: [
-                { link: 'about-1', title: 'About' },
-                { link: 'course-style-1', title: 'Courses' },
-                { link: 'team-1', title: 'Instructor' },
-                { link: 'event-grid', title: 'Events' },
+                { link: 'about', title: 'About' },
+                { link: 'courses', title: 'Courses' },
+                { link: 'team', title: 'Instructor' },
+                // { link: 'event-grid', title: 'Events' },
                 { link: 'team-details', title: 'Instructor Profile' },
                 { link: 'purchase-guide', title: 'Purchase Guide' }
             ]
@@ -28,11 +28,11 @@ const footer_contents = {
             widget_title: 'Links',
             footer_links: [
                 { link: 'contact-us', title: 'Contact Us' },
-                { link: 'gallery-grid', title: 'Gallery' },
-                { link: 'blog-standard', title: 'News & Articles' },
+                // { link: 'gallery-grid', title: 'Gallery' },
+                // { link: 'blog-standard', title: 'News & Articles' },
                 { link: 'faq', title: "FAQ's" },
                 { link: 'sign-in', title: 'Sign In/Registration' },
-                { link: 'coming-soon', title: 'Coming Soon' }
+                // { link: 'coming-soon', title: 'Coming Soon' }
             ]
         }
     ]
@@ -100,10 +100,10 @@ const Footer = ({ style_2, dark_bg,home_4,cls='',logo_white=false }) => {
                                 <h4 className="widget-title">Contacts</h4>
                                 <div className="inner">
                                     <p className="description">Enter your email address to register to our newsletter subscription</p>
-                                    <div className="input-group footer-subscription-form">
+                                    {/* <div className="input-group footer-subscription-form">
                                         <input type="email" className="form-control" placeholder="Your email" />
                                         <button className={`edu-btn ${dark_bg && !home_4?'btn-secondary':''} btn-medium`} type="button">Subscribe <i className="icon-4"></i></button>
-                                    </div>
+                                    </div> */}
                                     <ul className="social-share icon-transparent">
                                         <FooterSocial/>
                                     </ul>
