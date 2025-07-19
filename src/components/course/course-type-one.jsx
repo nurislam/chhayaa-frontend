@@ -48,7 +48,7 @@ const CourseTypeOne = ({ data, classes }) => {
     dispatch(
       cart_course({
         id: course.id,
-        img: `${course_item.imageUrl}`,
+        img: `${course.imageUrl}`,
         price: course.price,
         title: course.title,
       })
