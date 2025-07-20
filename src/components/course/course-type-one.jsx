@@ -10,6 +10,18 @@ import {
   wishlistItems,
 } from "../../redux/features/wishlist-slice";
 
+// Utility to strip HTML tags
+const stripHtml = (html) => {
+  if (!html) return "";
+  return html.replace(/<[^>]*>?/gm, "");
+};
+
+// Utility to truncate text
+const truncate = (text, length = 100) => {
+  if (!text) return "";
+  return text.length > length ? text.slice(0, length) + "..." : text;
+};
+
 const CourseTypeOne = ({ data, classes }) => {
   const { cartCourses } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
@@ -62,6 +74,7 @@ const CourseTypeOne = ({ data, classes }) => {
     }
   };
 
+  const shortText = truncate(stripHtml(data.content), 120);
   return (
     <div
       className={`edu-course course-style-1 ${
@@ -70,7 +83,7 @@ const CourseTypeOne = ({ data, classes }) => {
     >
       <div className="inner">
         <div className="thumbnail">
-          <Link href={`/course-details/${data.id}`}>
+          <Link href={`/course-details/${data.identifier}`}>
             <img
               src={data.imageUrl}
               alt={data.title}
@@ -89,7 +102,7 @@ const CourseTypeOne = ({ data, classes }) => {
         <div className="content">
           <span className="course-level">{"Advanced"}</span>
           <h6 className="title">
-            <a href="#">{data.title}</a>
+            <a href={`/course-details/${data.identifier}`}>{data.title}</a>
           </h6>
           <div className="course-rating">
             <div className="rating">
@@ -134,7 +147,9 @@ const CourseTypeOne = ({ data, classes }) => {
           </button>
           <span className="course-level">{"Advanced"}</span>
           <h6 className="title">
-            <Link href={`/course-details/${data.id}`}>{data.identifier}</Link>
+            <Link href={`/course-details/${data.identifier}`}>
+              {data.title}
+            </Link>
           </h6>
           <div className="course-rating">
             <div className="rating">
@@ -147,7 +162,7 @@ const CourseTypeOne = ({ data, classes }) => {
             <span className="rating-count">({data.rating} Rating)</span>
           </div>
           <div className="course-price">${data.price}</div>
-          <p>{data.title}</p>
+          <p>{shortText}</p>
           <ul className="course-meta">
             <li>
               <i className="icon-24"></i>

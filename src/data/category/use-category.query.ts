@@ -24,7 +24,7 @@ const fetchCategoryData = async (options: any, localContext?: any) => {
 
 const useCategoryQuery = (options: any, localContext?: any) => {
   return useQuery({
-    queryKey: ["categories"],
+    queryKey: ["Allcategories"],
     queryFn: () => fetchCategoryData(options, localContext),
     enabled: true,
     refetchOnMount: true,

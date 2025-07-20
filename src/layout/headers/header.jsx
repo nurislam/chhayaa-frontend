@@ -39,7 +39,7 @@ const Header = ({
   const categories = category
     .filter((cat) => cat.status === "active" && !cat.deleted)
     .map((cat) => ({
-      link: `/courses/category/${cat.id}`,
+      link: `/courses/category/${cat.identifier}`,
       title: cat.categoryName,
     }));
 

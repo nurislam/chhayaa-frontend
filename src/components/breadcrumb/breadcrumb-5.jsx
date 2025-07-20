@@ -15,7 +15,7 @@ const CourseBreadcrumb = ({ course, subtitle }) => {
               <i className="icon-angle-right"></i>
             </li>
             <li className="breadcrumb-item">
-              <Link href="/course-style-1">Courses</Link>
+              <Link href="/courses">Courses</Link>
             </li>
             <li className="separator">
               <i className="icon-angle-right"></i>

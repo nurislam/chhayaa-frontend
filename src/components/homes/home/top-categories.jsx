@@ -1,66 +1,70 @@
-import { useCategoryQuery } from '@/data/category/use-category.query';
-import Link from 'next/link';
+"use client";
+import { useCategoryQuery } from "@/data/category/use-category.query";
+import Link from "next/link";
 
-// const category_contents = {
-//     title: 'Top Categories',
-//     text: 'Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore',
-//     category_items: [
-//         {
-//             delay: '50',
-//             color: 'color-primary-style',
-//             icon: 'icon-9',
-//             title: 'Business Management'
-//         },
-//         {
-//             delay: '100',
-//             color: 'color-secondary-style',
-//             icon: 'icon-10 art-design',
-//             title: 'Arts & Design'
-//         },
-//         {
-//             delay: '150',
-//             color: 'color-extra01-style',
-//             icon: 'icon-11 personal-development',
-//             title: 'Personal Development'
-//         },
-//         {
-//             delay: '50',
-//             color: 'color-tertiary-style',
-//             icon: 'icon-12 health-fitness',
-//             title: 'Health & Fitness'
-//         },
-//         {
-//             delay: '100',
-//             color: 'color-extra02-style',
-//             icon: 'icon-13 data-science',
-//             title: 'Data Science'
-//         },
-//         {
-//             delay: '150',
-//             color: 'color-extra03-style',
-//             icon: 'icon-14',
-//             title: 'Marketing'
-//         },
-//         {
-//             delay: '50',
-//             color: 'color-extra04-style',
-//             icon: 'icon-15',
-//             title: 'Business & Finance'
-//         },
-//         {
-//             delay: '100',
-//             color: 'color-extra05-style',
-//             icon: 'icon-16 computer-science',
-//             title: 'Computer Science'
-//         },
-//         {
-//             delay: '150',
-//             color: 'color-extra06-style',
-//             icon: 'icon-17 video-photography',
-//             title: 'Video & Photography'
-//         }
-//     ]
-// }
+const category_contents = {
+  title: "Top Categories",
+  text: "Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore",
+  category_items: [
+    {
+      delay: "50",
+      color: "color-primary-style",
+      icon: "icon-9",
+      title: "Business Management",
+    },
+    {
+      delay: "100",
+      color: "color-secondary-style",
+      icon: "icon-10 art-design",
+      title: "Arts & Design",
+    },
+    {
+      delay: "150",
+      color: "color-extra01-style",
+      icon: "icon-11 personal-development",
+      title: "Personal Development",
+    },
+    {
+      delay: "50",
+      color: "color-tertiary-style",
+      icon: "icon-12 health-fitness",
+      title: "Health & Fitness",
+    },
+    {
+      delay: "100",
+      color: "color-extra02-style",
+      icon: "icon-13 data-science",
+      title: "Data Science",
+    },
+    {
+      delay: "150",
+      color: "color-extra03-style",
+      icon: "icon-14",
+      title: "Marketing",
+    },
+    {
+      delay: "50",
+      color: "color-extra04-style",
+      icon: "icon-15",
+      title: "Business & Finance",
+    },
+    {
+      delay: "100",
+      color: "color-extra05-style",
+      icon: "icon-16 computer-science",
+      title: "Computer Science",
+    },
+    {
+      delay: "150",
+      color: "color-extra06-style",
+      icon: "icon-17 video-photography",
+      title: "Video & Photography",
+    },
+  ],
+};
+
+//const { title, text, category_items } = category_contents;
+
 const TopCategories = () => {
   const {
     data: categoryData = [],
@@ -73,37 +77,39 @@ const TopCategories = () => {
     order: ["createdAt DESC"],
   });
 
-  if (isLoading || isFetching) {
-    return <div>Loading categories...</div>;
-  }
+//   if (isLoading || isFetching) {
+//     return <div>Loading categories...</div>;
+//   }
 
-  if (error) {
-    return <div>Error loading categories.</div>;
-  }
+//   if (error) {
+//     return <div>Error loading categories.</div>;
+//   }
 
-  console.log("Raw categoryData:", categoryData);
+//console.log("Raw categoryData:", categoryData);
 
-  const categoriesToplist = categoryData
+  const categoriesAlllist = categoryData
     .filter((cat) => cat.status === "active" && !cat.deleted)
     .map((cat) => ({
       delay: "150",
-      link: `/course?category=${cat.identifier}`,
+      link: `/courses/category/${cat.identifier}`,
       color: "color-extra06-style",
-      icon: "icon-17 video-photography",
+      icon: cat.cat_icon,
       title: cat.categoryName,
       text: cat.categoryDescription,
     }));
 
-  console.log("Filtered categoriesToplist:", categoriesToplist);
+   console.log("Filtered categoriesToplist:", categoriesAlllist);
 
-  const category_contents = {
+  const categoryMain = {
     title: "Top Categories",
     text: "Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore",
-    category_items: categoriesToplist,
+    category_items: categoriesAlllist,
   };
 
-  const { title, text, category_items } = category_contents;
-console.log("Filtered category_contents:", category_items.length);
+   //console.log("Filtered category_contents:", categoryMain.items.length);
+
+   const { title, text, category_items } = categoryMain;
+
   return (
     <div className="edu-categorie-area categorie-area-2 edu-section-gap">
       <div className="container">
@@ -121,30 +127,26 @@ console.log("Filtered category_contents:", category_items.length);
         </div>
 
         <div className="row g-5">
-          {category_items.length === 0 ? (
-            <p>No categories found.</p>
-          ) : (
-            category_items.map((item, i) => (
-              <div
-                key={i}
-                className="col-lg-4 col-md-6"
-                data-sal-delay={`${item.delay}`}
-                data-sal="slide-up"
-                data-sal-duration="800"
-              > 
-                <div className={`categorie-grid categorie-style-2 ${item.color}`}>
-                  <div className="icon">
-                    <i className={item.icon}></i>
-                  </div>
-                  <div className="content">
-                    <Link href={item.link}>
-                      <h5 className="title">{item.title}</h5>
-                    </Link>
-                  </div>
+          {category_items.map((item, i) => (
+            <div
+              key={i}
+              className="col-lg-4 col-md-6"
+              data-sal-delay={`${item.delay}`}
+              data-sal="slide-up"
+              data-sal-duration="800"
+            >
+              <div className={`categorie-grid categorie-style-2 ${item.color}`}>
+                <div className="icon">
+                  <i className={item.icon}></i>
+                </div>
+                <div className="content">
+                  <Link href={item.link}>
+                    <h5 className="title">{item.title}</h5>
+                  </Link>
                 </div>
               </div>
-            ))
-          )}
+            </div>
+          ))}
         </div>
       </div>
     </div>

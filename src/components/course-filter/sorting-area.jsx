@@ -53,7 +53,7 @@ const SortingArea = ({
           <ul className="switcher-btn">
             <li>
               <Link
-                href="/course-style-1"
+                href="/courses"
                 className={!course_list ? "active" : ""}
               >
                 <i className="icon-53"></i>
@@ -61,7 +61,7 @@ const SortingArea = ({
             </li>
             <li>
               <Link
-                href="/course-style-4"
+                href="/courses-list"
                 className={course_list ? "active" : ""}
               >
                 <i className="icon-54"></i>

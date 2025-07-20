@@ -17,6 +17,7 @@ const CourseCategory = () => {
   const [next, setNext] = useState(coursePerView);
   const [courses, setCourses] = useState([]);
   const { identifier } = useParams();
+console.log('identifier' ,identifier );
 
   const {
     data: course_data = [],
@@ -25,15 +26,14 @@ const CourseCategory = () => {
     error,
     refetch,
   } = useCoursesQuery({
-    where: {
-      categoryId: identifier,
-    },
-
     include: [
       {
         relation: "category",
         scope: {
-          fields: { id: true, categoryName: true },
+          where: {
+            identifier,
+          },
+          fields: { id: true, categoryName: true, identifier: true },
         },
       },
       {
