@@ -1,7 +1,10 @@
 import Link from "next/link";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { cart_course } from "../../redux/features/cart-slice";
+import {
+  cart_course,
+  remove_cart_course,
+} from "../../redux/features/cart-slice";
 import {
   add_to_wishlist,
   wishlistItems,
@@ -43,16 +46,20 @@ const CourseTypeOne = ({ data, classes }) => {
     }
   };
 
-  // handle add to cart
-  const handleAddToCart = (course) => {
-    dispatch(
-      cart_course({
-        id: course.id,
-        img: `${course_item.imageUrl}`,
-        price: course.price,
-        title: course.title,
-      })
-    );
+  const handleCartItem = (course) => {
+    const isInCart = cartCourses.some((item) => item.id === course.id);
+    if (isInCart) {
+      dispatch(remove_cart_course({ id: course.id }));
+    } else {
+      dispatch(
+        cart_course({
+          id: course.id,
+          img: `${course.imageUrl}`,
+          price: course.price,
+          title: course.title,
+        })
+      );
+    }
   };
 
   return (
@@ -152,7 +159,7 @@ const CourseTypeOne = ({ data, classes }) => {
             </li>
           </ul>
           <a
-            onClick={() => handleAddToCart(data)}
+            onClick={() => handleCartItem(data)}
             className="edu-btn btn-secondary btn-small"
             style={{ cursor: "pointer" }}
           >
