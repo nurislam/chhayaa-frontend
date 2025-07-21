@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
-import { Footer, Header } from '../../../layout';
-import Breadcrumb from '../../breadcrumb/breadcrumb';
+import { Footer, Header } from '../../layout';
+import Breadcrumb from '../breadcrumb/breadcrumb';
 import TeamArea from './team-area';
 import useParallax from '@/hooks/use-parallax';
 

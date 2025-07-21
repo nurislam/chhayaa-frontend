@@ -14,8 +14,8 @@ const footer_contents = {
             widget_title: 'Online Platform',
             footer_links: [
                 { link: 'about-1', title: 'About' },
-                { link: 'course-style-1', title: 'Courses' },
-                { link: 'team-1', title: 'Instructor' },
+                { link: 'courses', title: 'Courses' },
+                { link: 'instructors', title: 'Instructor' },
                 { link: 'event-grid', title: 'Events' },
                 { link: 'team-details', title: 'Instructor Profile' },
                 { link: 'purchase-guide', title: 'Purchase Guide' }

@@ -10,7 +10,7 @@ const SignInArea = () => {
                     <div className="col-lg-5">
                         <div className="login-form-box">
                             <h3 className="title">Sign in</h3>
-                            <p>Don’t have an account? <a href="#">Sign up</a></p>
+                            <p>Already have an account?</p>
                             <LoginForm/>
                         </div>
                     </div>
@@ -18,7 +18,7 @@ const SignInArea = () => {
                     <div className="col-lg-5">
                         <div className="login-form-box registration-form">
                             <h3 className="title">Registration</h3>
-                            <p>Already have an account? <a href="#">Sign in</a></p>
+                            <p>Don’t have an account?</p>
                             <RegisterForm/>
                         </div>
                     </div>

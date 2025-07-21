@@ -1,5 +1,5 @@
 import { Wrapper } from "@/layout";
-import TeamOneMain from "@/components/teams/team-1";
+import TeamOneMain from "@/components/teams";
 
 export const metadata = {
   title: 'Team One'

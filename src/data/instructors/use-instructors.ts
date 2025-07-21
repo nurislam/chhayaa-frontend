@@ -74,7 +74,7 @@ const fetchInstructorsDetails = async (identifier: any, localContext?: any) => {
     ? LOCAL_ENDPOINTS.INSTRUCTORS
     : API_ENDPOINTS.INSTRUCTORS;
   const { data } = await Instructors.find(
-    `${endpoint}/${identifier}`,
+    `${endpoint}/details/${identifier}`,
     localContext
   );
   return data;

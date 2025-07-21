@@ -1,8 +1,21 @@
 import React from 'react';
-import { instructors_data } from '../../../data';
-import TeamTwo from "../../../components/team-member/team-two";
+import { instructors_data } from '../../data';
+import TeamTwo from "../team-member/team-two";
+import { useInstructorsQuery } from '@/data/instructors/use-instructors';
 
 const TeamArea = () => {
+
+    const {
+        data: instructors_data = [],
+        isLoading,
+        isFetching,
+        error,
+        refetch,
+    } = useInstructorsQuery({
+        order: ["createdAt DESC"],
+    });
+console.log('instructors_data',instructors_data);
+
     return (
         <div className="edu-team-area team-area-2 edu-section-gap">
             <div className="container">
@@ -13,7 +26,7 @@ const TeamArea = () => {
                 </div>
 
                 <div className="row g-5">
-                    {instructors_data.slice(0,6).map((instructor) => {
+                    {instructors_data.slice(0, 6).map((instructor) => {
                         return (
                             <div key={instructor.id} className="col-lg-4 col-md-6" data-sal-delay="100" data-sal="slide-up" data-sal-duration="800">
                                 <TeamTwo instructor={instructor} />
