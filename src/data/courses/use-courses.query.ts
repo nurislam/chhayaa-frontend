@@ -103,7 +103,7 @@ const fetchCoursesDetails = async (identifier: any, localContext?: any) => {
     ? LOCAL_ENDPOINTS.COURSES
     : API_ENDPOINTS.COURSES;
   const { data } = await Courses.find(
-    `${endpoint}/${identifier}?filter=${JSON.stringify(filter)}`,
+    `${endpoint}/details/${identifier}?filter=${JSON.stringify(filter)}`,
     localContext
   );
 

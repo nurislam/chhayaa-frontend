@@ -7,7 +7,7 @@ import { course_data } from "@/data";
 
 const CourseDetailsPage = () => {
   const params = useParams();
-  const courseId = params?.id;
+  const identifier = params?.identifier;
 
   const {
     data: course = {},
@@ -15,7 +15,7 @@ const CourseDetailsPage = () => {
     isFetching,
     error,
     refetch,
-  } = useDetailsCoursesInfo(courseId);
+  } = useDetailsCoursesInfo(identifier);
 
   return (
     <Wrapper>

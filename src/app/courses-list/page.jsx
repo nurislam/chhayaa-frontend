@@ -2,7 +2,7 @@ import { Wrapper } from "@/layout";
 import CourseStyleFourMain from "@/components/course-list";
 
 export const metadata = {
-  title: 'Course Style Four'
+  title: 'Courses'
 }
 
 const CourseFourPage = () => {
