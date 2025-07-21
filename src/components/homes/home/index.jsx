@@ -32,7 +32,7 @@ const HomeOneMain = () => {
         <TeamArea />
         <AdBanner />
         <BrandArea />
-        <BlogArea />
+        {/* <BlogArea /> */}
         <Footer />
       </div>
     </div>

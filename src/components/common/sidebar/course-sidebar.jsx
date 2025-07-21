@@ -99,7 +99,7 @@ const CourseSidebar = ({ course_data, course_items }) => {
                             <div key={i} className="edu-form-check">
                                 <input
                                     onClick={() => handleCategory(c.identifier)}  // Pass the category identifier for filtering
-                                    checked={categories.includes(c.identifier)}  // Check against category identifier
+                                    checked={categories?.includes(c?.identifier)}  // Check against category identifier
                                     type="checkbox"
                                     id={`cat-check${i + 1}`}
                                     readOnly

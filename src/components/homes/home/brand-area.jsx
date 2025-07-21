@@ -18,7 +18,7 @@ const { pre_title, title, text, brands } = brand_contents;
 
 const BrandArea = ({cls=''}) => {
     return (
-        <div className={`edu-brand-area brand-area-1 ${cls?cls:'gap-top-equal'}`}>
+        <div className={`edu-brand-area brand-area-1 ${cls?cls:'gap-top-equal'}`} style={{marginBottom:"90px"}}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5">
