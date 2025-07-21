@@ -111,17 +111,26 @@ const CourseTypeFive = ({ data, classes }) => {
                             <i className="icon-25"></i>
                             {data.TotalStudents} Students
                         </li>
+                        <li>
+                            {
+                                data.category && data.category.categoryName && (
+                                    <Link href={`/courses/category/${data.category.identifier}`}>
+                                        {data.category.categoryName}
+                                    </Link>
+                                )
+                            }
+                        </li>
                     </ul>
                 </div>
             </div>
             <div className="hover-content-aside">
                 <div className="content">
-                    <span className="course-level">ssasa
+                    <span className="course-level">
                         {data.level}
                     </span>
 
                     <h5 className="title">
-                        <Link href={`/course-details/${data.id}`}>
+                        <Link href={`/course-details/${data.identifier}`}>
                             {data.title}
                         </Link>
                     </h5>
@@ -148,9 +157,15 @@ const CourseTypeFive = ({ data, classes }) => {
                     <div className="course-feature">
                         <h6 className="title">What You’ll Learn?</h6>
                         <ul>
-                            {/* { 
-                                data.features.slice(0, 3).map( (feature, featurekey) => <li key={ featurekey }>{ feature }</li> )
-                            } */}
+                            {
+                                data.lessons && data.lessons.length > 0 ? (
+                                    data.lessons.slice(0, 3).map((lesson, featurekey) => (
+                                        <li key={featurekey}>{lesson.name}</li>
+                                    ))
+                                ) : (
+                                    <li>No lessons available.</li>
+                                )
+                            }
                         </ul>
                     </div>
 
